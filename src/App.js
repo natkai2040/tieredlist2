@@ -137,12 +137,13 @@ function App() {
         <div className="uploadSection">
           <div className="uploadButtons">
             <input 
+              className="uploadInput"
               type="file" 
               onChange={(event) => {
                 setImageUpload(event.target.files[0]);
               }}
             />
-            <button onClick={uploadItem}>
+            <button className="uploadButton" onClick={uploadItem}>
               Upload Image 
             </button>
           </div>
@@ -154,7 +155,7 @@ function App() {
         </div>
       </div>
       <div className="infoSection">
-        <h1>Previously Made Templates</h1>
+        {/* <h1>Previously Made Templates</h1> */}
       </div>
     </div>
     
