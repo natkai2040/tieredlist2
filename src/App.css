@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%; 
+}
+body {
+  height: 100%; 
+  width: 100%;
+}
+.App {
+  height: 100%; 
+  display: flex; 
+  flex: 1; 
+  justify-content: center;
+  flex-direction: column;
+  background: #efefef; 
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #181818; 
+}
+.sideBySide {
+  height: 80%; 
+  width: 80%;
+  display: flex; 
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.uploadSection { 
+  width: 20%; 
+  background: #7b7b7b;
+}
+.uploadButtons { 
+  height: 10%; 
+  background: #7b7b7b;
+}
+.unratedContainer { 
+  width: 100%; 
+  height: 90%;
+  background: #181818;
+}
+.tierContainer { 
+  width: 70%; 
+  background: #181818;
+}
+.tierRow { 
+  display: flex; 
+  flex-direction: row;
+  margin: 4px;
+}
+.tierTitle { 
+  background-color: "white"; /* Default Color */
+  width: 20%; 
+  display: flex;
+  flex-direction: column;
+  font-size: 150%;
+  text-align: center;
+  /* box-shadow: inset #ffffff85 0px -4px 2px; */
+}
+
+.item {
+  width:80px;
+  height:80px;
+  margin:4px; 
+}
+.itemContainer { 
+  width: 100%;
+  height: 100%;
+  min-height: 88px;
+  background-color: #232323;
+  margin: 0px; 
+  /* box-shadow: inset #45444a -4px -4px 2px; */
+}
+#button { 
+  border: solid 4px white;
+  
+}
